@@ -3,24 +3,91 @@
 <head>
   <title>Yeseul Kim The Genius </title>
   <meta charset="utf-8">
+  <style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 100px);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    border-bottom: 1px solid gray;
+  }
+  .image {
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+    border-bottom: 1px solid gray;
+  }
+  .two {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    border-bottom: 1px solid gray;
+  }
+  .three {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    border-bottom: 1px solid gray;
+  }
+  .four {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .five {
+    grid-column: 1 / 2;
+    grid-row: 6 / 8;
+    border-right: 1px solid gray;
+  }
+  .six {
+    grid-column: 2 / 5;
+    grid-row: 4 / 8;
+  }
+  </style>
 </head>
 <body>
-
-  <h1><strong>Yeseul Kim</strong> The genius</h1>
-  <br>
-
-  <img src="/static/images/geniuseul_koala.png" width="80%">
-  <br><br>
-  <h2>PROFILE</h2>
-
-  <ol>
-    <li>Marketer</li>
-    <li><a href="https://www.instagram.com/geniuseul/" target="_blank">Movie Reviewer</a></li>
-    <li>Translator</li>
-    <br>
-  </ol>
-  <h2>SKILLS</h2>
-  <br>
-  <h2>WORK EXPERIENCE</h2>
+  <div class="wrapper">
+    <div class="one">
+      <h1><strong>Yeseul Kim</strong> The genius</h1>
+      <h2>Marketer, Movie reviewer</h2>
+    </div>
+    <div class="image">
+      <img src="static/images/geniuseul_koala.png" width="auto" height="100%"/>
+    </div>
+    <div class="two">
+      <h2>Contact</h2>
+    </div>
+    <div class="three">
+      <h2>Profile</h2>
+    </div>
+    <div class="four">
+      <h2>SKILLS</h2>
+    </div>
+    <div class="five">
+      <h2>EDUCATION</h2>
+    </div>
+    <div class="six">
+      <h2>WORK EXPERIENCE</h2>
+    </div>
+  </div>
+    <!-- <br>
+    <img src="koala.png" width="80%">
+    <br><br>
+    <h2>PROFILE</h2>
+    <div>
+      <ol>
+        <li>Marketer</li>
+        <li><a href="https://www.instagram.com/geniuseul/" target="_blank">Movie Reviewer</a></li>
+        <li>Translator</li>
+        <br>
+      </ol>
+      <div>
+        <h2>SKILLS</h2>
+        <br>
+        <h2>WORK EXPERIENCE</h2>
+      </div>
+    </div>
+  </div> —>
 </body>
 </html>
