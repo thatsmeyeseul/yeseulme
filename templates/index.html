@@ -54,6 +54,17 @@
     grid-row: 4 / 8;
     padding-left: 0.5em;
   }
+  .profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  @media screen and (min-width: 768px) {
+    .profile {
+      width: 150px;
+      height: 150px;
+    }
+  }
   </style>
 </head>
 <body>
@@ -63,7 +74,7 @@
       <h2>퍼포먼스 마케터, 영화 리뷰어</h2>
     </div>
     <div class="image">
-      <img src="static/images/geniuseul_koala.png" width="auto" height="90%" style="border-radius: 45%;" />
+      <img src="static/images/geniuseul_koala.png" class="profile"/>
     </div>
     <div class="two">
       <h2>연락처</h2>
